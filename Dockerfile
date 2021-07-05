@@ -1,4 +1,3 @@
-RUN npm run build
 FROM node:alpine
 WORKDIR '/app'
 COPY package*.json ./
